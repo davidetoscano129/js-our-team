@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Titolo */
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color: #ff4081;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: #444;
+    font-size: 16px;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+
+/* Contenitore delle card */
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Stile per le card */
+.team-card {
+    display: flex;
+    background-color: #000;
+    color: #fff;
+    width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Img nelle card */
+.card-image img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+/* Testo nelle card */
+.card-text {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-text h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.card-text p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.card-text p:last-child {
+    color: #00bcd4;
+}
